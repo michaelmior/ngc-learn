@@ -39,7 +39,7 @@ ngc-learn requires:
 6) networkx  (>=2.6.3) (currently optional but required if using `ngclearn.utils.experimental.viz_utils`)
 7) pyviz (>=0.2.0) (currently optional but required if using `ngclearn.utils.experimental.viz_utils`)
 
-(Which you can have setup/installed by running `$ pip3 install -r requirements.txt`.)
+(Which you can have setup/installed using [pipenv](https://pipenv.pypa.io/en/latest/).)
 
 Once you have ensured that the above dependencies have been installed, you can then
 run the setup script at the top of the <code>ngclearn</code> directory

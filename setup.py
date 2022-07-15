@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.5.0'
+exec(open('./ngclearn/__init__.py').read())
+
 DESCRIPTION = 'NGC-Learn'
 LONG_DESCRIPTION = 'A toolkit library for building arbitrary predictive processing/coding architectures based on the neural generative coding (NGC) computational framework (Ororbia & Kifer 2022).'
 
@@ -13,7 +14,7 @@ for p in packages:
 setup(
        # the name must match the folder name 'verysimplemodule'
         name="ngclearn",
-        version=VERSION,
+        version=__version__,
         author="Alexander Ororbia",
         author_email="<ago@cs.rit.edu>",
         description=DESCRIPTION,
